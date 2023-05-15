@@ -1,4 +1,4 @@
-import { Card, Col, Container, Row, Stack } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { ActivityCard } from './ActivitieCard';
 
 export function Activities() {

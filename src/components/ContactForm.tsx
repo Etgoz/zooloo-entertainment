@@ -46,8 +46,8 @@ export function ContactForm() {
 							</FloatingLabel>
 						</Col>
 					</Row>
-					<Row className='my-3'>
-						<FloatingLabel label='Your Message' controlId='floatingTextarea'>
+					<Row className='my-3 mx-0'>
+						<FloatingLabel label='Your Message' controlId='floatingTextarea' className='p-0'>
 							<Form.Control
 								required
 								placeholder="I'd like to get more details"
