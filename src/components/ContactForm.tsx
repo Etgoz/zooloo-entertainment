@@ -56,6 +56,7 @@ export function ContactForm() {
 								onChange={(event) => {
 									setEmailBody(event.target.value);
 								}}
+								style={{ minHeight: '80px' }}
 							></Form.Control>
 						</FloatingLabel>
 					</Row>
