@@ -6,7 +6,7 @@ export function About() {
 			<Row xs={1} sm={2} md={2}>
 				<Col className='d-flex justify-content-center align-items-center py-2 mb-2'>
 					<Image
-						src='../public/zooloo-logo.png'
+						src='/zooloo-logo.png'
 						alt='ZooLoo Logo'
 						rounded
 						fluid

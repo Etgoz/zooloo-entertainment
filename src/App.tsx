@@ -10,11 +10,7 @@ export function App() {
 	return (
 		<Container fluid className='p-0 bg-dark bg-gradient'>
 			<Stack>
-				<Image
-					src='../public/zooloo-header.png'
-					alt='zooloo header'
-					style={{ maxHeight: '75vh' }}
-				/>
+				<Image src='/zooloo-header.png' alt='zooloo header' style={{ maxHeight: '75vh' }} />
 				<About />
 				<Activities />
 				<ContactForm />
